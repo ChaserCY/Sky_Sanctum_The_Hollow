@@ -1,0 +1,12 @@
+# 游戏本体通过 GitHub Releases 分发，不进仓库
+*.zip
+*.zip.0*
+*.ucas
+*.pak
+*.utoc
+*.exe
+*.pdb
+
+# 下载脚本的临时产物
+_download_parts/
+Sky_Sanctum_The_Hollow/

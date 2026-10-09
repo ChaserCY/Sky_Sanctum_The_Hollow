@@ -1,0 +1,6 @@
+* text=auto
+
+# 注意：gitattributes 是「后匹配者生效」，所以这条必须写在 * text=auto 之后。
+# download.bat 必须保持 CRLF（cmd.exe 解析 if/for 多行块时对 LF 行尾不友好），
+# 因此禁用 Git 的行尾转换，保证任何人下载到的字节都一致。
+download.bat -text
